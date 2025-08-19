@@ -17,7 +17,7 @@ const ThemeToggle = ({ theme, setTheme }) => {
               <button
                 key={num}
                 onClick={() => setTheme(themeName)}
-                className={`w-6 h-6 rounded-full
+                className={`w-6 h-6 rounded-full cursor-pointer 
             ${
               theme === themeName
                 ? "bg-[var(--color-key-bg-accent)]"
